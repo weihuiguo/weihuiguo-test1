@@ -1,0 +1,19 @@
+{
+    "name": "weihuiguo/test",
+    "description": "Test of a composer package",
+    "authors": [
+        {
+            "name": "weihuiguo",
+            "email": "366422205@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "weihuiguo-test\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
